@@ -77,7 +77,7 @@ const ML = () => {
                 <Grid item xs={12} md={2} lg={4}></Grid>
                 </Hidden>
                 <Grid item xs={12} md={8} lg={4}>
-                    <br /><Box component="span" fontSize='1.2em'>💯 Stuff I have built:</Box><br /><br />
+                    <br /><Box component="span" fontSize='1em'>💯 Stuff I have built:</Box><br /><br />
                     <Box component="span">+ Building ML powered Saplingo's Career assesment and platform</Box><br />
                     <Box component="span">+ Built Adaptive testing platform for Genius Tiger</Box><br />
                     <Box component="span">Many other projects</Box><br />

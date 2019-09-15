@@ -92,8 +92,9 @@ const Software = () => {
 
                     <Grid item xs={12} md={2} lg={4}></Grid>
                 </Hidden>
-                <Grid item xs={12} md={8} lg={4}>
-                    <br /><Box component="span" fontSize='1.2em'>💯 Stuff I have built:</Box><br /><br />
+                <Hidden smDown>
+                    <Grid item xs={12} md={8} lg={4}>
+                    <br /><Box component="span" fontSize='1em'>💯 Stuff I have built:</Box><br /><br />
                     <Box component="span">+ Building web and mobile app for Saplingo</Box><br />
                     <Box component="span">+ Developed 2 Chrome extensions: Extension 1 and Extension 2</Box><br />
                     <Box component="span">+ Built Genius Tiger web app, with virtual classroom feature, for tutors, students, parents and admins</Box><br />
@@ -102,6 +103,19 @@ const Software = () => {
                     <Box component="span">+ Built Sponsdo's native ad distribution platform for publishers, influencers and advertisers</Box><br />
                     <Box component="span">Many other projects</Box><br />
                 </Grid>
+                </Hidden>
+                <Hidden mdUp>
+                    <Grid item xs={12} md={8} lg={4} style={{ fontSize: '10px' }}>
+                    <br /><Box component="span" fontSize='1em'>💯 Stuff I have built:</Box><br /><br />
+                    <Box component="span">+ Building web and mobile app for Saplingo</Box><br />
+                    <Box component="span">+ Developed 2 Chrome extensions: Extension 1 and Extension 2</Box><br />
+                    <Box component="span">+ Built Genius Tiger web app, with virtual classroom feature, for tutors, students, parents and admins</Box><br />
+                    <Box component="span">+ Built Tutor Bin's web app for tutors, students and admin dashboard with CRM</Box><br />
+                    <Box component="span">+ Built Igni's e-commerce app</Box><br />
+                    <Box component="span">+ Built Sponsdo's native ad distribution platform for publishers, influencers and advertisers</Box><br />
+                    <Box component="span">Many other projects</Box><br />
+                </Grid>
+                </Hidden>
                 <Grid item xs={12} md={2} lg={4}></Grid>
 
             </Grid>
