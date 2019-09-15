@@ -6,7 +6,11 @@ import { Provider } from 'react-redux'
 import Home from '../containers/home'
 import reducer from '../redux/reducers/reducer'
 import Box from '@material-ui/core/Box';
+import ReactGA from 'react-ga';
 
+
+ReactGA.initialize('UA-147952898-1');
+ReactGA.pageview('/');
 
 const store = createStore(
   reducer,

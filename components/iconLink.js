@@ -9,7 +9,7 @@ const IconLink = (props) => {
     return (
 
         <Fade timeout={props.timeout} in={true}>
-            <Box component='span' mx={.5}><a href={props.url}>
+            <Box component='span' mx={.5}><a href={props.url} target="_blank">
                 <img src={url} onMouseOver={e => (e.currentTarget.src="/static/icons/"+props.name+"-color.png")}
             onMouseOut={e => (e.currentTarget.src="/static/icons/"+props.name+".png")}></img></a></Box>
          </Fade>

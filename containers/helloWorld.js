@@ -24,9 +24,9 @@ const HelloWorld = ({  }) => {
             </Fade>
 
             <div style={{ marginTop: '-15px' }}>
-                <IconLink name="twitter" url="" timeout={2500} />
-                <IconLink name="linkedin" url="" timeout={3000} />
-                <IconLink name="messenger" url="" timeout={3500} />
+                <IconLink name="twitter" url="https://twitter.com/anshuIkharb" timeout={2500} />
+                <IconLink name="linkedin" url="https://www.linkedin.com/in/anshulkharb/" timeout={3000} />
+                <IconLink name="messenger" url="https://m.me/kharb.anshul" timeout={3500} />
                 {/* <IconLink name="github" url="" timeout={4000} />
                 <IconLink name="medium" url="" timeout={4500} /> */}
             </div>
