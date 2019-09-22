@@ -11,7 +11,7 @@ const EssayLink = (props) => {
     return (
         <Box component='span' fontSize='15px' my={1} mx={2}>
             <Link href={props.url}>
-                <a style={{ textDecoration: 'none', color: 'white' }}>{props.name} <Chip label={props.status} size="small" /></a>
+                <a style={{ textDecoration: 'none', color: 'white' }}>{props.name} </a>
             </Link>
         </Box>
     );
