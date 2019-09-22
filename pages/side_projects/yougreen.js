@@ -33,15 +33,11 @@ const YouGreen = () => {
                     <Box component='h1'>YouGreen: Save the planet one video at a time</Box>
 
 
-                    </Grid>
-                    <Grid item xs={2} md={3} lg={4}></Grid>
 
                     <img src='/static/side_projects/yougreen.png' style={{ width: '100%' }}></img>
 
 
-                    <Grid item xs={2} md={3} lg={4}></Grid>
-                    <Grid container item xs={8} md={6} lg={4} alignItems="flex-start" justify="center" direction="column">
-
+                   
                     <Box component="span" color="grey"> 22 Sep '19</Box><br />
 
 
