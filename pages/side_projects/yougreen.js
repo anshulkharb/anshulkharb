@@ -57,7 +57,7 @@ const YouGreen = () => {
                     <Box component="p">
                     Now let's jump into a different story. Some days ago, I came across <a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/" target="_blank">this article</a>
                     </Box>
-                    <Box component="blockquote" style={{ fontSize: '1.2em', fontStyle: 'italic' }}>
+                    <Box component="blockquote" style={{ color: 'grey', fontSize: '1.2em', fontStyle: 'italic' }}>
                     According to the American Council for an Energy-Efficient Economy it takes 5.12 kWh of electricity per gigabyte of transferred data. And according to the Department of Energy 
                     the average US power plant expends 600 grams of carbon dioxide for every kWh generated. That means that transferring 1GB of data produces 3kg of CO2.
                     </Box>
@@ -69,7 +69,7 @@ const YouGreen = () => {
                     <Box component="p">
                     Now let's check some other numbers, <a href="https://help.netflix.com/en/node/87" target="_blank">according to Netflix</a>.
                     </Box>
-                    <Box component="blockquote" style={{ fontSize: '1.2em', fontStyle: 'italic' }}>
+                    <Box component="blockquote" style={{ color: 'grey', fontSize: '1.2em', fontStyle: 'italic' }}>
                     Watching TV shows or movies on Netflix uses about 1 GB of data per hour for each stream of standard definition video, and up to 3 GB per hour for each stream of HD video.
                     </Box><br />
 
