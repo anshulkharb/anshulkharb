@@ -12,7 +12,7 @@ const KGP = () => {
                 <img src="/static/KGP.jpeg" style={{ width: '30vw' }}></img>
             </Box><br />
             <Box component='span' fontSize='1.1em'>
-                🎓 I graduated from IIT Kharagpur, India's top university, in May '19.
+                🎓 I graduated from IIT(India Institute of Technology)) Kharagpur, in May '19.
             </Box>
         </Grid>
     );
