@@ -16,6 +16,8 @@ const YouGreen = () => {
                 <title>YouGreen: Saving the planet one video at a time</title>
                 <link rel="icon" type="image/x-icon" href="/static/icons/AK.png" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d88f23643af7d44"></script>
+
             </Head>
             <NextSeo
                 title="YouGreen: Saving the planet one video at a time"
@@ -45,7 +47,11 @@ const YouGreen = () => {
                         You can download extnesion from <a href="https://chrome.google.com/webstore/detail/kkmjnhmmeibepfpgnfpodpfjfahbmalm/" target="_blank">here</a>. <a href="https://github.com/anshulkharb/YouGreen" target="_blank">Github</a>
                     </Box>
 
-
+                    <Box component="div">
+                        
+                    <div class="addthis_inline_share_toolbox"></div>
+            
+                    </Box>
 
                     <Box component='p'>
                     From cat videos to live game streaming, the world loves to watch videos on YouTube. YouTube has a variety of categories of videos, but music dominates them 
