@@ -42,7 +42,7 @@ const YouGreen = () => {
 
 
                     <Box component="h4">
-                        You can download extnesion from <a href="" target="_blank">here</a>. <a href="https://github.com/anshulkharb/YouGreen" target="_blank">Github</a>
+                        You can download extnesion from <a href="https://chrome.google.com/webstore/detail/kkmjnhmmeibepfpgnfpodpfjfahbmalm/" target="_blank">here</a>. <a href="https://github.com/anshulkharb/YouGreen" target="_blank">Github</a>
                     </Box>
 
 

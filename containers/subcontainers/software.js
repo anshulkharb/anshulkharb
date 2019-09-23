@@ -93,7 +93,7 @@ const Software = () => {
                     <Grid item xs={12} md={2} lg={4}></Grid>
                 </Hidden>
                 <Hidden smDown>
-                    <Grid item xs={12} md={8} lg={4}>
+                    <Grid item xs={12} md={8} lg={4} style={{ fontSize: '14px' }}>
                     <br /><Box component="span" fontSize='1em'>💯 Stuff I have built:</Box><br /><br />
                     <Box component="span">+ Building web and mobile app for Saplingo</Box><br />
                     <Box component="span">+ Developed 2 Chrome extensions: Extension 1 and Extension 2</Box><br />
