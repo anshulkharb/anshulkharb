@@ -37,7 +37,7 @@ const YouGreen = () => {
 
 
 
-                    <img src='/static/side_projects/YouGreen/main.png' style={{ width: '100%' }}></img><br />
+                    <img src='/static/side_projects/yougreen/main.png' style={{ width: '100%' }}></img><br />
 
 
                     <Box component="span" color="grey"> 22 Sep '19</Box><br />
@@ -117,7 +117,7 @@ const YouGreen = () => {
                     <Box component="p">
                     So, here's the simple solution, YouGreen: saving the planet one video at a time.
                     </Box><br />
-                    <img src='/static/side_projects/YouGreen/yougreen.png' style={{ width: '100%' }}></img>
+                    <img src='/static/side_projects/yougreen/yougreen.png' style={{ width: '100%' }}></img>
 
 
                     <Box component="h4">
