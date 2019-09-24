@@ -67,8 +67,29 @@ const YouGreen = () => {
                     According to the American Council for an Energy-Efficient Economy it takes 5.12 kWh of electricity per gigabyte of transferred data. And according to the Department of Energy 
                     the average US power plant expends 600 grams of carbon dioxide for every kWh generated. That means that transferring 1GB of data produces 3kg of CO2.
                     </Box>
+
                     <Box component="p">
-                    (I cross-checked the data with different references, and surprisingly and unfortunately these numbers seem to accurate, possibly.)
+                    There's one another <a href="https://medium.com/stanford-magazine/carbon-and-the-cloud-d6f481b79dfe" target="_blank">article</a>.
+                    </Box>
+                    <Box component="blockquote" style={{ color: 'grey', fontSize: '1.2em', fontStyle: 'italic' }}>
+                    The combination of transmitting your data and storing it in a data center probably requires about 3 to 7 kWh per gigabyte. That’s about a million times more than the energy 
+                    you used to save to your hard drive. Instead of 0.1 microwatt-hours, your text document has sucked down 0.1 watt-hours of electrical energy — enough to light an LED bulb for 
+                    about 30 seconds.</Box>
+
+                    <Box component="p">
+                    Now the carbon footprint of electricity generation varies in different countries because of different sources from which electricity is generated. For example, carbon footprint from electricity generated from coal is much higher as compared to wind or solar.
+                    For a rough calculation, let's consider the USA where on average, <a href="http://www.carbonfund.org/how-we-calculate/" target="_blank">1.222 lbs CO2 per kWh</a> which is 0.5534 kg CO2 per kWh.
+                    </Box>
+                    <Box component="blockquote" style={{ color: 'grey', fontSize: '1.2em', fontStyle: 'italic' }}>
+                    Emissions factors for electricity by your monthly bill are based on state based figures from the EPA eGRID to get the state-by-state prices for energy, and the emissions 
+                    factors are generated from the Department of Energy’s Energy Information Administration. On average, electricity sources emit 1.222 lbs CO2 per kWh. State CO2 emissions per 
+                    kWh may vary greatly in accordance with the amount of clean energy in the energy supply (Vermont: 0.00668 lbs/kWh; Wyoming: 2.041lbs/kWh). (Source: (Source: EPA eGRID Summary Tables)
+                    </Box>
+
+
+                    <Box component="p">
+                    Also, check out <a href="https://www.newscientist.com/article/2201769-a-small-youtube-design-change-could-drastically-cut-its-co2-emissions/" target="_blank">this</a>, 
+                        <a href="https://www.theverge.com/2019/5/7/18531107/youtube-waste-energy-power-video-streaming-google"> this</a> and <a href="https://www.fastcompany.com/90346595/the-internets-youtube-habit-has-the-carbon-footprint-of-a-small-city">this</a>.
                     </Box>
 
                     
