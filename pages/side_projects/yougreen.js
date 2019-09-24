@@ -29,8 +29,8 @@ const YouGreen = () => {
             <GoHome />
 
             <Grid container>
-                <Grid item xs={2} md={3} lg={4}></Grid>
-                <Grid container item xs={8} md={6} lg={4} alignItems="flex-start" justify="center" direction="column">
+                <Grid item xs={1} md={3} lg={4}></Grid>
+                <Grid container item xs={10} md={6} lg={4} alignItems="flex-start" justify="center" direction="column">
 
                     
                     <Box component='div' fontSize="3em" >YouGreen: Save the planet one video at a time</Box><br />
@@ -136,7 +136,7 @@ const YouGreen = () => {
                     </Box>
 
                 </Grid>
-                <Grid item xs={2} md={3} lg={4}></Grid>
+                <Grid item xs={1} md={3} lg={4}></Grid>
             </Grid>
             <br />
 
