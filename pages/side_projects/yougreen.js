@@ -37,7 +37,7 @@ const YouGreen = () => {
 
 
 
-                    <img src='/static/side_projects/yougreen/main.png' style={{ width: '100%' }}></img><br />
+                    <img src='/static/side_projects/yougreen/main.jpg' style={{ width: '100%' }}></img><br />
 
 
                     <Box component="span" color="grey"> 22 Sep '19</Box><br />
