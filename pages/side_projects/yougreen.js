@@ -88,6 +88,12 @@ const YouGreen = () => {
 
 
                     <Box component="p">
+                    For calculating the amount of CO2 produced per GB of data transfer, I'm taking 3kWh(Energy required for 1 GB of data transfer, which ranges from 3-7kWh) and 1.22lbs of CO2(average amount of CO2 produced per kWh of Energy generated), resulting in around 1.5kg CO2/GB.
+                    There're no hard and fast rules for such calculation but these are estimations, and I hope these estiamtions to be less. Please share if you have a better source of data.
+                    </Box>
+
+
+                    <Box component="p">
                     Also, check out <a href="https://www.newscientist.com/article/2201769-a-small-youtube-design-change-could-drastically-cut-its-co2-emissions/" target="_blank">this</a>, 
                         <a href="https://www.theverge.com/2019/5/7/18531107/youtube-waste-energy-power-video-streaming-google"> this</a> and <a href="https://www.fastcompany.com/90346595/the-internets-youtube-habit-has-the-carbon-footprint-of-a-small-city">this</a>.
                     </Box>
