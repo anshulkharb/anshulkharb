@@ -16,8 +16,8 @@ const SideProjects = () => {
                 </Grid>
                 <Grid container item alignItems=""  justify="" direction="column" xs={9} md={5} style={{ margin: '2vh 0 2vh 0', borderStyle: 'solid', borderWidth: '0px 0px 0px 0.2px', borderColor: 'lightgrey' }}>
                     <EssayLink name="YouGreen: Saving the planet one video at a time" url="/side_projects/yougreen" />
-                    <EssayLink name="Facebook TrackerBlocker: Facebook Privacy tool | Launching on 29 Sep" url="" />
-                    <EssayLink name="YouTube TrackerBlocker: YouTube Privacy tool | Launching on 6 Oct" url="" />
+                    {/* <EssayLink name="Facebook TrackerBlocker: Facebook Privacy tool | Launching on 29 Sep" url="" />
+                    <EssayLink name="YouTube TrackerBlocker: YouTube Privacy tool | Launching on 6 Oct" url="" /> */}
                 </Grid>
                 <Grid item xs={12} md={3}></Grid>
             </Grid>
