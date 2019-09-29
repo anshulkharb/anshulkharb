@@ -135,8 +135,8 @@ const YouGreen = () => {
                     <ul>
                         <li>Install extension.</li>
                         <li>Now, you can set default quality by clicking the extension's icon located on the address bar.</li>
-                        <li>Now whenever any video that will autoplay in the background, it's video quality will automatically be downgraded to lowest, with no change in audio quality.</li>
-                        <li>And when you'll come back to that tab, that was playing music in background, and play some other video manually, YouGreen will intelligently upgrade to your selected default video quality.</li>
+                        <li>Whenever you change tab different from YouTube, video quality will automatically be downgraded to lowest, with no change in audio quality.</li>
+                        <li>And when you'll come back to the YouTab tab, YouGreen will intelligently upgrade to your selected default video quality.</li>
                     </ul>
                     </Box>
 
