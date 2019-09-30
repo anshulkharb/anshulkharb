@@ -7,7 +7,7 @@ const YouGreenInstalled = () => {
     return (
         <div>
         <Head>
-            <title>Thanks for intalling YouGreen: Saving the planet one video at a time</title>
+            <title>Thanks for installing YouGreen: Saving the planet one video at a time</title>
             <link rel="icon" type="image/x-icon" href="/static/icons/AK.png" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d88f23643af7d44"></script>
