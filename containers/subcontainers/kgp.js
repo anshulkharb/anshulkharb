@@ -17,7 +17,7 @@ const KGP = () => {
         justify="center"
         direction="column"
       >
-        <Box component="span" fontSize="1em">
+        <Box component="span" fontSize=".9em">
           Hello fellow evolved H, I'm Anshul Kharb. <br />
           <br />
           I work as Tech Lead at Tutorbin and advise GoPerceptive.
