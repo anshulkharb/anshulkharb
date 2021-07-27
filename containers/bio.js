@@ -5,11 +5,11 @@ import Hidden from '@material-ui/core/Hidden';
 import Fade from '@material-ui/core/Fade';
 import BioLink from '../components/bioLink';
 import { connect } from 'react-redux'
-import { startup, developer, ml, twitter, kgp, contact, toggleStartup, toggleDeveloper, toggleML, toggleTwitter, toggleKGP } from '../redux/actions/actions'
+import { startup, developer, ml, twitter, kgp, contact, toggleStartup, toggleDeveloper, toggleML, toggleTwitter, toggleKGP, toggleContact } from '../redux/actions/actions'
 
 
 
-const Bio = ({ startup, developer, ml, twitter, kgp, contact, toggleStartup, toggleDeveloper, toggleML, toggleTwitter, toggleKGP }) => {
+const Bio = ({ startup, developer, ml, twitter, kgp, contact, toggleStartup, toggleDeveloper, toggleML, toggleTwitter, toggleKGP, toggleContact }) => {
 
     return (
         <Fade timeout={2000} in={true}>
@@ -17,13 +17,14 @@ const Bio = ({ startup, developer, ml, twitter, kgp, contact, toggleStartup, tog
             <Grid items xs={3}></Grid>
             <Grid items xs={6} align="center">
                 
-                <BioLink name="Start-Up" status={startup} onMouseOver={toggleStartup} onMouseOut={toggleStartup} /><Hidden mdUp><br /></Hidden>
-                <BioLink name="Develop Softwares" status={developer} onMouseOver={toggleDeveloper} onMouseOut={toggleDeveloper} /><Hidden mdUp><br /></Hidden>
-                <BioLink name="Make Machines Learn" status={ml} onMouseOver={toggleML} onMouseOut={toggleML} /><br /><Hidden smDown><br /></Hidden>
-                <BioLink name="Random Musings" status={twitter} onMouseOver={toggleTwitter} onMouseOut={toggleTwitter} /><Hidden mdUp><br /></Hidden>
+                <BioLink name="GoPerceptive" status={startup} onMouseOver={toggleStartup} onMouseOut={toggleStartup} /><Hidden mdUp><br /></Hidden>
+                <BioLink name="Tutorbin" status={developer} onMouseOver={toggleDeveloper} onMouseOut={toggleDeveloper} /><Hidden mdUp><br /></Hidden>
+                <BioLink name="DiscoverCareer" status={ml} onMouseOver={toggleML} onMouseOut={toggleML} /><br /><Hidden smDown><br /></Hidden>
+                <BioLink name="Side Projects" status={twitter} onMouseOver={toggleTwitter} onMouseOut={toggleTwitter} /><Hidden mdUp><br /></Hidden>
                 {/* <BioLink name="Write Essays" /><Hidden mdUp><br /></Hidden> */}
-                <BioLink name="IIT Kharagpur" status={kgp} onMouseOver={toggleKGP} onMouseOut={toggleKGP}  /><Hidden mdUp><br /></Hidden>
-                <BioLink name="Side Projects" /><br />
+                <BioLink name="About" status={kgp} onMouseOver={toggleKGP} onMouseOut={toggleKGP}  /><Hidden mdUp><br /></Hidden>
+                <BioLink name="Connect" status={contact} onMouseOver={toggleContact} onMouseOut={toggleContact}  /><Hidden mdUp><br /></Hidden>
+                {/* <BioLink name="Connect" /><br /> */}
 
             </Grid>
             <Grid items xs={3}></Grid>
@@ -38,7 +39,8 @@ const mapDispatchToProps = dispatch => ({
     toggleDeveloper: () => dispatch(toggleDeveloper()),
     toggleML: () => dispatch(toggleML()),
     toggleTwitter: () => dispatch(toggleTwitter()),
-    toggleKGP: () => dispatch(toggleKGP())
+    toggleKGP: () => dispatch(toggleKGP()),
+    toggleContact: () => dispatch(toggleContact())
 })
 
 const mapStateToProps = state => ({

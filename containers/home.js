@@ -11,6 +11,7 @@ import Software from './subcontainers/software'
 import ML from './subcontainers/ml'
 import Twitter from './subcontainers/twitter'
 import KGP from './subcontainers/kgp'
+import Contact from './subcontainers/contact'
 
 
 const Home = ({ startup, developer, ml, twitter, kgp, contact }) => {
@@ -57,7 +58,7 @@ const Home = ({ startup, developer, ml, twitter, kgp, contact }) => {
 
                 {/* <Essays /> */}
 
-                <SideProjects />
+                {/* <SideProjects /> */}
 
                 <InfoFooter />
 

@@ -12,7 +12,8 @@ const HelloWorld = ({  }) => {
     return (
         <Grid container item alignItems="center" justify="center" direction="column" style={{ minHeight: '60vh' }}>
             <Fade timeout={1000} in={true}>
-                <span style={{ fontSize: '35px', color: '#686868' }} onPointerEnter={() => setValue(value === 'hello world' ? '👋 🌏' : 'hello world')}>
+                <span style={{ fontSize: '35px', color: '#686868' }} onMouseOut={() => setValue('hello world')}
+                 onMouseOver={() => setValue('👋 🌏')}>
                     {value}
                 </span>
             </Fade>
