@@ -24,7 +24,7 @@ const Software = () => {
           <Box style={{ display: "inline" }}>
             <br />
             <br />
-            Tech Lead <Chip mr={2} label="2017-2019" size="small" />
+            Tech Lead <Chip mr={2} label="2017-2019" size="small" />{" "}
             <Chip mr={2} label="July '20 - Present" size="small" />
           </Box>
         </span>
