@@ -28,7 +28,7 @@ const Startup = () => {
             <Chip mr={2} label="June '19 - July '20" size="small" />
             <br />
             <Box mt={.5}></Box>
-            Advisor{"   "}
+            Part-time{"   "}
             <Chip mr={2} label="July '20 - Present" size="small" />
           </Box>
         </span>
