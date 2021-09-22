@@ -30,11 +30,6 @@ const Software = () => {
         </span>
         <br />
         <Box component="span">
-          Tutorbin helps university/college students across globe in homework
-          help.
-          <br />
-          Developed first version of the apps from scratch, now working on new
-          initiatives.
         </Box>
         <br />
         <small>

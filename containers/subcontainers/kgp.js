@@ -20,7 +20,7 @@ const KGP = () => {
         <Box component="span" fontSize=".9em">
           Hello fellow evolved H, I'm Anshul Kharb. <br />
           <br />
-          I work as Tech Lead at Tutorbin and advise GoPerceptive.
+          I work as Tech Lead at Tutorbin and founded GoPerceptive.
           <br />
           I graduated from IIT Kharagpur in 2019. Post my graduation I
           co-founded DiscoverCaree(dormant) and GoPerceptive that is leading

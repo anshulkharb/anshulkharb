@@ -30,9 +30,6 @@ const ML = () => {
         </span>
         <br />
         <Box component="span">
-          Discover Career was a career assessment and planning platform that
-          helped students to achieve their potential with psychology and data
-          science.
         </Box>
         <br />
         <small>

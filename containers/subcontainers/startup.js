@@ -34,8 +34,6 @@ const Startup = () => {
         </span>
         <br />
         <Box component="span">
-          GoPerceptive is leading eCommerce Analytics and Intelligence company.
-          We count top brands like Marico, Hersheys, McCormick as our clients.
         </Box>
         <br />
         <small>
